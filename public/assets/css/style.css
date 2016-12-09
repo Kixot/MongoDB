@@ -1,0 +1,129 @@
+.container{
+    display:inline-block;
+}
+
+.container-suggestions{
+    background-color:dimgray;
+    border:1px solid darkslategray;
+    color:white;
+    width:15%;
+}
+
+.container-suggestions > p > a{
+    color:white;
+}
+
+.container-listkebabs{
+    width:60%;
+    border:2px gray solid;
+    border-radius: 10px;
+    margin-left:20%;
+}
+
+.container-kebab{
+    margin-top:5px;
+}
+.container-kebab > .panel-body > img{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.container-research{
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.container-boutons{
+    width:15%;
+}
+
+.container-boutons-media{
+    visibility: hidden;
+    width:5%;
+    margin-right:8%;
+}
+
+body{
+    padding-top:70px;
+    padding-bottom:70px;
+}
+
+.panel-profile{
+    margin-left:15%;
+    margin-right:15%;
+}
+
+.panel-researchusers{
+    width:20%;
+    display: inline-block;
+}
+
+.panel-researchtags{
+    width:77%;
+    display: inline-block;
+}
+
+.textgrise{
+    color:gray;
+}
+
+.form-group input.searchbar{
+    width:400px;
+}
+
+.fixed{
+    position:fixed;
+}
+
+.fixed-media{
+    position:fixed;
+    top:150px;
+}
+
+.navbar-footer{
+    text-align:center;
+    font-size:1.7rem;
+    color:white;
+    height:20px;
+}
+
+.panel-register{
+    width:70%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.img-userkebab{
+    width:30px;
+    height:30px;
+    margin-top:-5px;
+    margin-right:5px;
+}
+
+h2{
+    font-weight: bold;
+}
+
+@media screen and (max-device-width: 600px) {
+    .container-suggestions{
+        visibility: hidden;
+    }
+    .container-listkebabs{
+        width:87%;
+        margin-left:5px;
+    }
+    .container-boutons{
+        visibility: hidden;
+    }
+    .container-boutons-media{
+        visibility: visible;
+    }
+    .panel-profile{
+        margin-left:5%;
+        margin-right:5%;
+    }
+    .panel-register{
+        width:90%;
+    }
+}
